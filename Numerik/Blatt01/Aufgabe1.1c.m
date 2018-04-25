@@ -6,17 +6,17 @@ while k <= n
   sum+=(x^k)/factorial(k);
   k+=1;
 end
-printf("Ergebnis für n =");
+printf('Ergebnis fuer n =');
 disp(n);
-printf("  ");
+printf('  ');
 disp(sum^11);
-printf("\n")
-endfunction 
+printf('\n')
+endfunction
 
-printf("1.1 c) : ")
+printf('1.1 c) : '')
 printf("\n")
 i=3
 while i <= 30
   euler(-0.5, i);
   i+=3;
-end 
+end
